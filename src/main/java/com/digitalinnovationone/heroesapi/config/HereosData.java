@@ -16,7 +16,7 @@ import static com.digitalinnovationone.heroesapi.constans.HeroesConstant.ENDPOIN
 
 public class HereosData {
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
 
         AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard()
                 .withEndpointConfiguration(new AwsClientBuilder.EndpointConfiguration(ENDPOINT_DYNAMO, REGION_DYNAMO))
@@ -50,4 +50,3 @@ public class HereosData {
     }
 
 }
-
